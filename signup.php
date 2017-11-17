@@ -8,7 +8,7 @@ include_once 'header.php';
                
                   
                     <center><img src="download.png"></center> 
-                <form class="signup-form">
+                    <form class="signup-form" action="includes/signup.php" method="POST">
                     <input type="text" name="first" placeholder="Firstname">
                     <input type="text" name="last" placeholder="Lastname">
                     <input type="text" name="email" placeholder="E-mail">
