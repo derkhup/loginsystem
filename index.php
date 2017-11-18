@@ -9,6 +9,13 @@ include_once 'header.php';
                   <br>
                     <br>
                     <center><img src="download.png"></center> 
+                    <?php
+                    if (isset($_SESSION['u_id'])) {
+                        echo "You are logged in";
+                        
+                    }
+                    
+                    ?>
                 
             </div>
         </section>
