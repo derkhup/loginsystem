@@ -114,6 +114,7 @@ a {
 
 body {
     background-color: yellow;
+    image: 100%
 }
 
 header nav{
@@ -129,6 +130,7 @@ header nav ul{
 header nav ul li{
    float: left;
    list-style: none;
+    margin-right: 30px;
 }
 
 header nav ul li a{
@@ -145,6 +147,8 @@ header .nav-login{
 header .nav-login form{
     float: left;
     padding-top: 15px;
+   
+/*     overflow: hidden;*/
 }
 
 header .nav-login form input{
@@ -240,3 +244,4 @@ header .nav-login a{
 .signup-form button:hover {
     background-color: #111;
 }
+

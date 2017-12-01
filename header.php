@@ -8,6 +8,9 @@
 	<meta charset="UTF-8">
 	<title>Login System</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+        <head>
+        <script src="jquery-3.2.1.min.js"></script>
+</head>
 </head>
 <body>
 <header>
@@ -15,6 +18,15 @@
 	<div class="main-wrapper">
 		<ul>
 			<li><a href="index.php">Home</a></li>
+		</ul>
+<!--		<div class="nav-login">-->
+                
+                <ul>
+                    <li><a href="Events.php">Events</a></li>
+		</ul>
+<!--		<div class="nav-login">-->
+                <ul>
+		<li><a href="Aanmelden.php">Aanmelden</a></li>
 		</ul>
 		<div class="nav-login">
 
@@ -30,6 +42,8 @@
 				<button type="submit" name="submit">Login</button>
 			</form>
 			<a href="signup.php">Sign Up</a>';
+                        
+                        
 		}
 			
 		?>
